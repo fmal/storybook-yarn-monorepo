@@ -1,0 +1,13 @@
+{
+  "name": "storybook-yarn-monorepo",
+  "packageManager": "yarn@3.3.1",
+  "version": "0.0.0-ignore",
+  "private": true,
+  "workspaces": [
+    "storybook"
+  ],
+  "scripts": {
+    "storybook": "yarn workspace storybook dev",
+    "build-storybook": "yarn workspace storybook build"
+  }
+}
